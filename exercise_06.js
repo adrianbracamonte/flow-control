@@ -1,0 +1,16 @@
+// What does this code output to the console?
+
+function isArrayEmpty(arr) {
+    if (arr) {
+        console.log('Not Empty')
+    } else {
+        console.log('Empty')
+    }
+}
+
+isArrayEmpty([])
+
+
+// Outputs 'Not Empty'
+
+// Empty Array evaluates to 0, and the if statement runs
